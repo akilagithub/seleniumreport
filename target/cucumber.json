@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-07T05:44:16.724Z",
+        "line": 4,
+        "name": "Check that order is placed in TestMeApp",
+        "description": "",
+        "id": "testme-app-testing;check-that-order-is-placed-in-testmeapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5499000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the chrome browser and navigated to TestMeApp Home Page",
+            "match": {
+              "location": "skeleton.StepDefinitions.i_launch_the_chrome_browser_and_navigated_to_TestMeApp_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open the TestMeApp home page",
+            "match": {
+              "location": "skeleton.StepDefinitions.i_open_the_TestMeApp_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 462000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Home Appliances category on home page",
+            "match": {
+              "location": "skeleton.StepDefinitions.i_click_on_Home_Appliances_category_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5074000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select Floor and View option",
+            "match": {
+              "location": "skeleton.StepDefinitions.select_Floor_and_View_option()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ValidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "TestMe App Testing",
+    "description": "",
+    "id": "testme-app-testing",
+    "keyword": "Feature",
+    "uri": "classpath:skeleton/TestMeApp.feature",
+    "tags": [
+      {
+        "name": "@ValidLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
